@@ -18,7 +18,7 @@ const config = {
 	READ_CMD: process.env.READ_CMD || false,
 	AUTO_READ: process.env.AUTO_READ || false,
 	AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || true,
-	CMD_REACT: process.env.CMD_REACT || false,
+	CMD_REACT: process.env.CMD_REACT || true,
 	MODE: process.env.MODE || 'private',
 	TIME_ZONE: process.env.TZ || process.env.TIME_ZONE || 'Africa/Lagos',
 	VERSION: require('./package.json').version,
