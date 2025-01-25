@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 
 const DATABASE_URL = process.env.DATABASE_URL || './database.db';
 const config = {
-	SESSION_ID: process.env.SESSION_ID || 'XSTRO_89_53_33',
+	SESSION_ID: process.env.SESSION_ID || 'XSTRO_66_14_00',
 	PREFIX: process.env.PREFIX || '.',
 	SUDO: process.env.SUDO || '',
 	BOT_INFO: process.env.BOT_INFO || '𝙰𝚜𝚝𝚛𝚘;𝚇𝚜𝚝𝚛𝚘-𝙱𝚘𝚝',
